@@ -17,3 +17,4 @@ get '/shoe' do
   @shoes = Shoe.all()
   erb(:index)
 end
+
