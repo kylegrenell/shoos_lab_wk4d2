@@ -8,6 +8,7 @@ class TestShoe < MiniTest::Test
     options = {
       "orderer" => "Mickey",
       "address" => "CodeClan",
+      "brand" => "Nike",
       "quantity" => "2",
       "size" => "9"
     }
