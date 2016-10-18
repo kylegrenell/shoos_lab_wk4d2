@@ -7,26 +7,31 @@ font-family: sans-serif;
 a {
   color: #f2f2f2;
   text-decoration: none;
+  text-align: center;
 }
 
 p {
   color: #f2f2f2;
   font-size: 200%;
   text-decoration: none;
+  text-align: center;
 }
 
 h1 {
   color: #ff9999;
   font-size: 200%;
+  text-align: center;
 }
 
 h2 {
   color: #ff9999;
   font-size: 150%;
+  text-align: center;
 }
 
 h4 {
   color: #ff9999;
+  text-align: center;
 }
 
 img {
@@ -60,4 +65,12 @@ p:link {
 a:active {
     color: #ffff80;
     text-decoration: underline;
+}
+
+div {
+    align-content: center;
+      padding-top: 50px;
+      padding-right: 30px;
+      padding-bottom: 50px;
+      padding-left: 80px;
 }
