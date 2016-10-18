@@ -1,0 +1,16 @@
+<h2>Shoe Orders</h2>
+
+<% @shoes.each do |shoe| %>
+
+<strong>Orderer:</strong>
+<p>
+<%= shoe.orderer() %>
+</p>
+<strong>Order:</strong>
+<p>
+<%= shoe.quantity() %> pairs of size <%= shoe.size() %>
+</p>
+
+<hr>
+
+<% end %>
